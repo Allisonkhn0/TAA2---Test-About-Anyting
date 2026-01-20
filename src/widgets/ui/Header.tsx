@@ -11,9 +11,9 @@ function Header(): JSX.Element {
         <img src="#" alt="icon" />
 
         <div>
-          <Link to={'/home'}>Home</Link>
-          <Link to={'/tests'}>Test</Link>
-          <Link to={'/create'}>Create Test</Link>
+          <Link to={'/'}>Home</Link>
+          <Link to={'/test'}>Test</Link>
+          <Link to={'/create'}>Create</Link>
           <Link to={'/support'}>Support</Link>          
         </div>
 
